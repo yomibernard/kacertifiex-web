@@ -11,11 +11,18 @@ export function PageHero({ eyebrow, title, description, image }: PageHeroProps) 
   if (image) {
     return (
       <section className="relative min-h-[42vh] text-white lg:min-h-[48vh]">
-        <Image src={image} alt="" fill className="object-cover" priority sizes="100vw" />
+        <Image
+          src={image}
+          alt=""
+          fill
+          className="hero-photo-tune object-cover"
+          priority
+          sizes="100vw"
+        />
         <div className="hero-gradient-soft absolute inset-0" aria-hidden />
         <div className="relative mx-auto flex min-h-[42vh] max-w-7xl flex-col justify-end px-4 pb-14 pt-28 lg:min-h-[48vh] lg:px-6 lg:pb-20 lg:pt-32">
           {eyebrow && (
-            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-gold">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-gold-accent">
               {eyebrow}
             </p>
           )}
@@ -34,7 +41,7 @@ export function PageHero({ eyebrow, title, description, image }: PageHeroProps) 
     <section className="bg-navy-deep px-4 pb-14 pt-28 text-white lg:px-6 lg:pb-20 lg:pt-32">
       <div className="mx-auto max-w-7xl">
         {eyebrow && (
-          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-gold">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-gold-accent">
             {eyebrow}
           </p>
         )}

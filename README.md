@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - Core pages: About, Services (+ 6 practice detail routes), Industries, Insights (+ full articles), People, International, Careers, Contact, Tax Intelligence, Client Centre (placeholder)
 - **Let's Talk** CTA, consultation booking form, structured **WhatsApp** topic picker
 - Site search (services, people, insights, challenges)
-- Design tokens: navy `#0B2A5B`, gold `#F5B301`, Inter + Manrope
+- Design tokens: navy `#0B2A5B`, accent gold `#9A7D45`, Inter + Manrope
 - SEO metadata baseline, mobile-first layout
 
 ## Content (no code required)

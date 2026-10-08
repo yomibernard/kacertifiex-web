@@ -3,8 +3,10 @@
 :root {
   --navy: #0b2a5b;
   --navy-deep: #071d3d;
-  --gold: #f5b301;
-  --gold-light: #ffd165;
+  /* Muted bronze/champagne — avoids bright “AI gold” against photography */
+  --gold: #9a7d45;
+  --gold-light: #b39858;
+  --gold-accent: #c4b08a;
   --charcoal: #111827;
   --grey: #5b6472;
   --grey-light: #f4f5f7;
@@ -20,6 +22,7 @@
   --color-navy-deep: var(--navy-deep);
   --color-gold: var(--gold);
   --color-gold-light: var(--gold-light);
+  --color-gold-accent: var(--gold-accent);
   --color-charcoal: var(--charcoal);
   --color-grey: var(--grey);
   --color-grey-light: var(--grey-light);
@@ -119,6 +122,19 @@ h3 {
 .hero-ken-burns {
   animation: hero-ken-burns 28s ease-in-out infinite alternate;
   will-change: transform;
+}
+
+/* Tame overly warm / saturated hero photography */
+.hero-ken-burns img {
+  filter: saturate(0.82) contrast(1.04) brightness(0.97);
+}
+
+.hero-ken-burns video {
+  filter: saturate(0.82) contrast(1.04) brightness(0.97);
+}
+
+.hero-photo-tune {
+  filter: saturate(0.82) contrast(1.04) brightness(0.97);
 }
 
 @media (prefers-reduced-motion: reduce) {

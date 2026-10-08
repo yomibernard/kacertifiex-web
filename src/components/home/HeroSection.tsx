@@ -20,7 +20,7 @@ export async function HeroSection() {
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-4 pb-8 pt-28 lg:px-6 lg:pb-12 lg:pt-36">
         <div className="grid flex-1 items-end gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-7 animate-fade-up">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-gold">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.32em] text-gold-accent">
               {brand.eyebrow}
             </p>
             <h1 className="font-editorial mt-5 text-[2.75rem] leading-[1.05] sm:text-6xl lg:text-[4.25rem]">
@@ -41,7 +41,7 @@ export async function HeroSection() {
           </div>
           <div className="hidden animate-fade-up-delay lg:col-span-5 lg:block">
             <div className="rounded-sm border border-white/15 bg-white/5 p-8 backdrop-blur-md">
-              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-gold-accent">
                 {hero.sideCard.kicker}
               </p>
               <p className="mt-4 font-display text-xl font-semibold leading-snug">

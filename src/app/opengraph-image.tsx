@@ -23,7 +23,7 @@ export default function OpenGraphImage() {
             display: "flex",
             fontSize: 28,
             fontWeight: 700,
-            color: "#F5B301",
+            color: "#C4B08A",
             letterSpacing: 4,
           }}
         >

@@ -1,6 +1,8 @@
 import { CaseStudyCard } from "@/components/case-studies/CaseStudyCard";
 import { CtaBand } from "@/components/layout/CtaBand";
 import { PageHero } from "@/components/layout/PageHero";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
+import { CaseStudyJsonLd } from "@/components/seo/CaseStudyJsonLd";
 import { getCaseStudies, getCaseStudy } from "@/lib/cms";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -38,6 +40,14 @@ export default async function CaseStudyPage({ params }: Props) {
 
   return (
     <>
+      <CaseStudyJsonLd study={study} />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Case studies", path: "/case-studies" },
+          { name: study.title, path: `/case-studies/${study.slug}` },
+        ]}
+      />
       <PageHero
         eyebrow={`Client result · ${study.industry}`}
         title={study.title}

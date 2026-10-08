@@ -1,6 +1,7 @@
 import { InsightCard } from "@/components/insights/InsightCard";
 import { InsightsHubFeatured } from "@/components/insights/InsightsHubFeatured";
 import { InsightsHubSidebar } from "@/components/insights/InsightsHubSidebar";
+import { InsightsNewsletterBand } from "@/components/insights/InsightsNewsletterBand";
 import { CtaBand } from "@/components/layout/CtaBand";
 import { PageHero } from "@/components/layout/PageHero";
 import { getInsight, getInsights, getInsightsHub } from "@/lib/cms";
@@ -43,6 +44,7 @@ export default async function InsightsPage() {
         image="/images/hero-strategy.webp"
       />
       {featured && <InsightsHubFeatured insight={featured} />}
+      <InsightsNewsletterBand />
 
       <section className="section-pad mx-auto max-w-7xl">
         <div className="grid gap-16 lg:grid-cols-12">

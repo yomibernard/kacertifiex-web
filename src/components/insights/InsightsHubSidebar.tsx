@@ -1,3 +1,4 @@
+import { NewsletterSignup } from "@/components/newsletter/NewsletterSignup";
 import { Button } from "@/components/ui/Button";
 import Link from "next/link";
 
@@ -15,6 +16,15 @@ export function InsightsHubSidebar() {
         <Button href="/tax-intelligence" variant="primary" className="mt-5 w-full">
           Open centre →
         </Button>
+      </div>
+      <div className="card-premium p-6">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+          Email updates
+        </p>
+        <p className="mt-2 text-xs leading-relaxed text-grey">
+          New briefings and tax reminders.
+        </p>
+        <NewsletterSignup list="insights" variant="light" buttonLabel="Subscribe" />
       </div>
       <div className="card-premium p-6">
         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">

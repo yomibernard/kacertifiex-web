@@ -26,6 +26,8 @@ When `LEAD_WEBHOOK_URL` is set (server-only in Vercel), each submission is forwa
 
 Without a webhook, submissions are still accepted; payloads are logged in server logs only (not suitable for production).
 
+Newsletter `list` values: `tax-alert` (Tax Intelligence Centre), `insights` (Insights hub sidebar and signup band).
+
 ## Optional next step
 
 Add email notifications in your automation (e.g. Zapier → Gmail/Outlook to `info@kacertifiex.com`).

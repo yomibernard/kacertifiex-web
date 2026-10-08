@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "tax-exposure-manufacturing",
+    "title": "How a Lagos manufacturer reset its tax posture before FIRS engagement",
+    "industry": "Manufacturing",
+    "industrySlug": "manufacturing",
+    "summary": "Partner-led tax review, intercompany documentation and authority-ready positions.",
+    "challenge": "Incomplete transfer pricing files and an open FIRS review created contingent liability, board anxiety and unpredictable cash calls.",
+    "approach": "90-day tax diagnostic, reconstruction of intercompany policies, monthly provisioning discipline and structured dialogue with authorities.",
+    "outcome": "Leadership gained documented positions, reduced penalty exposure and a repeatable tax calendar the CFO owns.",
+    "metric": "Assessed exposure materially reduced (client-confidential)"
+  },
+  {
+    "slug": "management-reporting-retail",
+    "title": "How a multi-branch retailer gained weekly visibility on margin and cash",
+    "industry": "Consumer & Retail",
+    "industrySlug": "consumer-retail",
+    "summary": "Finance operating model, outsourced management accounts and KPI packs for the CEO.",
+    "challenge": "Branch data arrived late and inconsistently—decisions on pricing, stock and promotions were effectively blind.",
+    "approach": "Process redesign, standardized branch templates, outsourced close support and executive dashboards.",
+    "outcome": "Monthly reporting stabilized with branch-level margin insight and a 13-week cash view for leadership.",
+    "metric": "Close cycle: ad-hoc → 10 business days"
+  },
+  {
+    "slug": "investor-readiness-fintech",
+    "title": "How a Nigerian fintech passed investor diligence with confidence",
+    "industry": "Technology & Fintech",
+    "industrySlug": "technology-fintech",
+    "summary": "Virtual CFO, model rebuild and data room preparation for a growth round.",
+    "challenge": "Diligence flagged weak controls, optimistic forecasts and gaps in the financial narrative.",
+    "approach": "Controls roadmap, model re-base, governance pack and transaction advisory through data room Q&A.",
+    "outcome": "Investor-ready materials, clearer board governance and completion of the diligence phase.",
+    "metric": "Diligence phase completed successfully"
+  }
+]

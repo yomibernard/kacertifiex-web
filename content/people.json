@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "adedotun-adesote",
+    "name": "Adedotun Adesote",
+    "role": "Partner · Executive Managing Partner",
+    "focus": "Audit · Tax · Management consulting · IFRS",
+    "qualifications": "BSc, FCCA",
+    "image": "/images/partners/adedotun-adesote.png",
+    "bio": "Adedotun leads KACERTIFIEX as Executive Managing Partner, overseeing audit, tax and management consulting mandates for corporates and growing businesses across Nigeria. He specialises in IFRS conversion, tax planning and dispute resolution, company setup, and advisory for organisations preparing for investment or restructuring. Clients rely on him for board-level clarity and hands-on engagement through delivery."
+  },
+  {
+    "slug": "oriyomi-bernard",
+    "name": "Oriyomi Bernard",
+    "role": "Partner",
+    "focus": "SME advisory",
+    "image": "/images/partners/oriyomi-bernard.jpg",
+    "bio": "Oriyomi leads SME advisory at KACERTIFIEX—helping founders and finance teams build reliable books, tax compliance and growth plans that banks and investors can underwrite. His work spans working-capital discipline, management accounts, and practical governance for businesses scaling beyond founder-led finance."
+  },
+  {
+    "slug": "davida-echetabu",
+    "name": "Davida Echetabu",
+    "role": "Partner",
+    "focus": "Wealth management consulting",
+    "image": "/images/partners/davida-echetabu.png",
+    "bio": "Davida heads wealth management consulting, supporting individuals, families and executives with structured financial planning, asset stewardship and long-term advisory. She brings a disciplined, confidential approach aligned to client objectives and applicable regulatory frameworks."
+  }
+]

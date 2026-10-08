@@ -1,0 +1,82 @@
+[
+  {
+    "month": "Every month",
+    "items": [
+      {
+        "date": "By 21st (typical)",
+        "title": "VAT return & payment (prior month)",
+        "authority": "FIRS",
+        "note": "Due date can vary—check your FIRS portal and notices"
+      },
+      {
+        "date": "By 21st (typical)",
+        "title": "Withholding tax (WHT) return & remittance",
+        "authority": "FIRS",
+        "note": "Applies where WHT was deducted in the prior month"
+      },
+      {
+        "date": "By 10th / 21st (state rules)",
+        "title": "PAYE remittance & schedules",
+        "authority": "State Internal Revenue Service",
+        "note": "Deadline depends on your state—Lagos and others differ"
+      }
+    ]
+  },
+  {
+    "month": "Quarterly / periodic",
+    "items": [
+      {
+        "date": "As notified",
+        "title": "Companies Income Tax (CIT) instalments or assessments",
+        "authority": "FIRS",
+        "note": "Based on company year-end and FIRS assessment cycle"
+      },
+      {
+        "date": "As notified",
+        "title": "Education Tax / other sector levies",
+        "authority": "FIRS / regulators",
+        "note": "Confirm applicability to your entity"
+      }
+    ]
+  },
+  {
+    "month": "Annual (typical triggers)",
+    "items": [
+      {
+        "date": "6 months after year-end (typical)",
+        "title": "Companies Income Tax (CIT) filing & payment",
+        "authority": "FIRS",
+        "note": "Verify your accounting year-end and any extensions"
+      },
+      {
+        "date": "Within statutory window",
+        "title": "Annual returns & beneficial ownership updates",
+        "authority": "CAC",
+        "note": "Penalties apply for late filing—confirm current CAC timelines"
+      },
+      {
+        "date": "As required",
+        "title": "Audited financial statements & regulatory filings",
+        "authority": "Sector regulators / FIRS",
+        "note": "Banks, insurance, and listed entities have additional deadlines"
+      }
+    ]
+  },
+  {
+    "month": "Budget & reform watch",
+    "items": [
+      {
+        "date": "Q4 / Q1",
+        "title": "Federal budget & finance bill measures",
+        "authority": "National Assembly / FIRS",
+        "note": "Update tax provisioning and board scenarios after enactment"
+      },
+      {
+        "date": "Ongoing",
+        "title": "FIRS notices, e-invoicing & compliance updates",
+        "authority": "FIRS",
+        "note": "Subscribe to Tax Alert below for KACERTIFIEX commentary"
+      }
+    ]
+  }
+]

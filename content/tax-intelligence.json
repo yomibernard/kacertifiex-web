@@ -1,0 +1,36 @@
+{
+  "lastReviewed": "2025-10-01",
+  "disclaimer": "This calendar is indicative for planning only. Statutory due dates depend on your accounting year-end, company size, sector, and state rules. Always confirm with FIRS, your State Internal Revenue Service, or your KACERTIFIEX adviser before filing or paying.",
+  "hero": {
+    "eyebrow": "Tax Intelligence Centre",
+    "title": "Plan compliance before deadlines become crises",
+    "description": "Indicative calendars, official links and partner commentary—paired with our Insights centre for deeper briefings on reform and filing posture."
+  },
+  "resourceLinks": [
+    {
+      "title": "2025 tax reform briefing",
+      "href": "/insights/nigeria-tax-reforms-2025",
+      "description": "Board-ready themes and 90-day actions."
+    },
+    {
+      "title": "Transfer pricing essentials",
+      "href": "/insights/transfer-pricing-nigeria-basics",
+      "description": "Documentation directors should not defer."
+    },
+    {
+      "title": "International market entry",
+      "href": "/insights/foreign-investment-nigeria",
+      "description": "Setup, tax and governance sequencing."
+    }
+  ],
+  "officialLinks": [
+    {
+      "label": "Federal Inland Revenue Service (FIRS)",
+      "url": "https://www.firs.gov.ng/"
+    },
+    {
+      "label": "Corporate Affairs Commission (CAC)",
+      "url": "https://www.cac.gov.ng/"
+    }
+  ]
+}

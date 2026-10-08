@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "eyebrow": "Insights centre",
+    "title": "Ideas and intelligence for Nigeria's decision-makers",
+    "description": "Partner-authored briefings on tax, finance, regulation and market entry—written for boards and finance teams who need to act, not just stay informed."
+  },
+  "featuredSlug": "nigeria-tax-reforms-2025",
+  "sections": [
+    {
+      "id": "tax",
+      "title": "Tax & regulation",
+      "description": "FIRS, state revenue, reform and compliance themes affecting corporates and SMEs."
+    },
+    {
+      "id": "finance",
+      "title": "Finance & performance",
+      "description": "Cash, reporting, IFRS and operating discipline for growth companies."
+    },
+    {
+      "id": "markets",
+      "title": "International & markets",
+      "description": "Cross-border investment, setup and governance for groups entering Nigeria."
+    }
+  ],
+  "categoryMap": {
+    "Tax update": "tax",
+    "Finance guide": "finance",
+    "International": "markets",
+    "Governance": "finance"
+  }
+}

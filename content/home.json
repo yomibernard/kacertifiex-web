@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "headline": "Lasting advantage for Nigeria's most ambitious leaders",
+    "subhead": "KACERTIFIEX partners with boards, founders and finance chiefs to turn tax, reporting and strategy into decisions that withstand investor diligence, regulator review and market volatility—delivered from Lagos with global discipline.",
+    "sideCard": {
+      "kicker": "How we work",
+      "title": "Small teams. Senior judgement. Outcomes you can measure.",
+      "body": "Every major mandate is partner-led. We combine IFRS-grade reporting, FIRS-ready tax positions and transaction experience so your next funding round, restructuring or expansion starts from a position of strength."
+    }
+  },
+  "promise": {
+    "title": "We exist to make complexity legible—and action inevitable.",
+    "body": "When the stakes are high, leaders need more than compliance checklists. They need integrated advice across tax, finance, risk and growth—translated into board packs, models and roadmaps your team can execute."
+  },
+  "clientAgendas": [
+    {
+      "title": "Transform performance",
+      "description": "Sharpen margins, cash conversion and operating rhythm across the business.",
+      "href": "/services/management-consulting"
+    },
+    {
+      "title": "Build investor confidence",
+      "description": "Reporting, controls and narratives that stand up in diligence.",
+      "href": "/services/accounting-finance"
+    },
+    {
+      "title": "Master tax & regulation",
+      "description": "Plan proactively, resolve disputes and protect cash from surprise assessments.",
+      "href": "/services/tax-regulatory-advisory"
+    },
+    {
+      "title": "Enter or scale in Nigeria",
+      "description": "Entity setup, regulatory registration and on-the-ground finance leadership.",
+      "href": "/international"
+    }
+  ],
+  "featuredInsightSlug": "nigeria-tax-reforms-2025"
+}

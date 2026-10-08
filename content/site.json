@@ -1,0 +1,43 @@
+{
+  "contact": {
+    "phone": "+234 803 835 5217",
+    "phoneHref": "tel:+2348038355217",
+    "email": "info@kacertifiex.com",
+    "whatsappNumber": "2348038355217",
+    "address": {
+      "line1": "16, Kolawole Shonibare Street",
+      "line2": "Coker Road, Ilupeju, Obanikoro, Lagos",
+      "country": "Nigeria"
+    },
+    "mapsQuery": "16 Kolawole Shonibare Street, Coker Road, Ilupeju, Obanikoro, Lagos, Nigeria",
+    "officeHours": "Mon–Fri, 9:00–17:00 (WAT)"
+  },
+  "social": [
+    { "label": "LinkedIn", "url": "" },
+    { "label": "Instagram", "url": "" }
+  ],
+  "stats": [
+    { "value": "2011", "label": "Founded in Lagos" },
+    { "value": "Partner-led", "label": "Every major engagement" },
+    { "value": "6", "label": "Integrated practices" },
+    { "value": "FCCA-led", "label": "Executive leadership" }
+  ],
+  "credentials": [
+    {
+      "title": "IFRS & reporting",
+      "description": "Financial statements and controls aligned to international reporting expectations."
+    },
+    {
+      "title": "FIRS & state tax",
+      "description": "Corporate tax, VAT, WHT and payroll across federal and state regimes."
+    },
+    {
+      "title": "Governance & assurance",
+      "description": "Internal control, audit readiness and board-grade reporting packs."
+    },
+    {
+      "title": "Cross-border entry",
+      "description": "Nigeria setup, regulatory registration and investor diligence support."
+    }
+  ]
+}

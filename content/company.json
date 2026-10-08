@@ -1,0 +1,35 @@
+{
+  "legalName": "Kacertifiex Financial Consulting Services",
+  "about": {
+    "intro": "KACERTIFIEX (KFCS) is a Lagos-based financial consulting firm for Nigerian corporates, high-growth companies and international groups that expect partner-led advice—not delegated compliance.",
+    "story": "Since 2011 we have advised clients through IFRS transitions, FIRS engagements, fundraising cycles and market entry. Our partners hold international qualifications and have led mandates across audit, tax and consulting in Nigeria's most regulated sectors.",
+    "mission": "We help leaders see clearly, decide confidently and deliver results that boards, investors and regulators can trust.",
+    "values": [
+      {
+        "title": "Integrity",
+        "description": "We document our advice, protect confidentiality and tell clients what they need to hear—not what is easy to sell."
+      },
+      {
+        "title": "Rigour",
+        "description": "Technical depth is non-negotiable. Our work is built for board review, investor diligence and regulator scrutiny."
+      },
+      {
+        "title": "Impact",
+        "description": "We measure success in outcomes: cash preserved, risk reduced, reporting upgraded and transactions closed."
+      }
+    ],
+    "focus": [
+      "Audit, assurance and internal control",
+      "Corporate, indirect and international tax",
+      "IFRS reporting and finance function design",
+      "SME scaling, governance and outsourced finance",
+      "Market entry, CAC setup and investor readiness",
+      "Executive education on tax, finance and strategy"
+    ]
+  },
+  "partners": [
+    "Adedotun Adesote — Executive Managing Partner · audit, tax, IFRS",
+    "Oriyomi Bernard — Partner · SME advisory",
+    "Davida Echetabu — Partner · wealth management consulting"
+  ]
+}

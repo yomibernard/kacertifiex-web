@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "eyebrow": "International business desk",
+    "title": "Enter Nigeria with structure, tax clarity and on-the-ground leadership",
+    "description": "For foreign parents, investors and diaspora founders—we design entity setup, registration, tax posture and finance leadership so your first year in market is defensible to home-country boards and Nigerian regulators."
+  },
+  "intro": "International groups often underestimate the sequencing of CAC registration, FIRS and state tax IDs, banking KYC, and payroll before revenue scales. KACERTIFIEX leads Nigeria delivery partner-to-partner, coordinating with your home advisers where needed.",
+  "phases": [
+    {
+      "title": "Discover & structure",
+      "description": "Entity type, ownership, sector licences and tax registration roadmap aligned to your investment thesis.",
+      "href": "/book-consultation"
+    },
+    {
+      "title": "Establish & comply",
+      "description": "CAC filings, FIRS and state revenue registration, payroll setup and initial compliance calendar.",
+      "href": "/services/tax-regulatory-advisory"
+    },
+    {
+      "title": "Operate & report",
+      "description": "IFRS reporting, management packs, transfer pricing and outsourced finance until your local team is ready.",
+      "href": "/services/outsourced-business-services"
+    },
+    {
+      "title": "Transact & repatriate",
+      "description": "Due diligence, valuations, dividend policy and FX-aware treasury with documented intercompany agreements.",
+      "href": "/services/financial-advisory"
+    }
+  ],
+  "corridors": [
+    {
+      "label": "United Kingdom",
+      "note": "Common holding structures, UK parent reporting and Nigeria subsidiary compliance."
+    },
+    {
+      "label": "United States",
+      "note": "US investor diligence, WHT on cross-border payments and US GAAP vs IFRS bridge reporting."
+    },
+    {
+      "label": "Canada, Europe & UAE",
+      "note": "Market entry planning and ongoing tax compliance for mid-market expansions."
+    },
+    {
+      "label": "China & Asia-Pacific",
+      "note": "Import-heavy operations, related-party trade and transfer pricing documentation."
+    }
+  ],
+  "topics": [
+    {
+      "title": "CAC incorporation & post-incorporation",
+      "detail": "Name reservation, share structure, directors and statutory filings."
+    },
+    {
+      "title": "Federal & state tax registration",
+      "detail": "TIN, VAT, PAYE and sector-specific registrations."
+    },
+    {
+      "title": "Transfer pricing & intercompany",
+      "detail": "Policies for management fees, royalties and goods flows."
+    },
+    {
+      "title": "Banking, FX & repatriation",
+      "detail": "KYC, dividend flows and practical treasury setup."
+    },
+    {
+      "title": "Investor & board reporting",
+      "detail": "IFRS packs and governance materials for international stakeholders."
+    }
+  ],
+  "featuredInsightSlug": "foreign-investment-nigeria"
+}

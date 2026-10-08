@@ -13,7 +13,9 @@ export async function HeroSection() {
   return (
     <section className="relative min-h-[100svh] text-white">
       <HeroBackground
-        image="/images/hero-premium.webp"
+        image={
+          (hero as { heroImage?: string }).heroImage?.trim() || "/images/nigeria.png"
+        }
         video={backgroundVideo?.trim() || undefined}
       />
       <div className="hero-gradient absolute inset-0" aria-hidden />

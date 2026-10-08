@@ -1,21 +1,20 @@
+import { HeroBackground } from "@/components/home/HeroBackground";
 import { Button } from "@/components/ui/Button";
 import { brand, stats } from "@/lib/site-config";
 import { getHomeContent } from "@/lib/cms";
-import Image from "next/image";
 
 export async function HeroSection() {
   const home = await getHomeContent();
   const { hero } = home;
+  const backgroundVideo =
+    (hero as { backgroundVideo?: string }).backgroundVideo ??
+    process.env.NEXT_PUBLIC_HERO_VIDEO_URL;
 
   return (
     <section className="relative min-h-[100svh] text-white">
-      <Image
-        src="/images/hero-premium.webp"
-        alt=""
-        fill
-        priority
-        className="object-cover object-center"
-        sizes="100vw"
+      <HeroBackground
+        image="/images/hero-premium.webp"
+        video={backgroundVideo?.trim() || undefined}
       />
       <div className="hero-gradient absolute inset-0" aria-hidden />
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-4 pb-8 pt-28 lg:px-6 lg:pb-12 lg:pt-36">

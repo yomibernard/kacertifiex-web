@@ -4,6 +4,7 @@ import { MobileActionBar } from "@/components/layout/MobileActionBar";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { OrganizationJsonLd } from "@/components/seo/OrganizationJsonLd";
+import { WebSiteJsonLd } from "@/components/seo/WebSiteJsonLd";
 import { WhatsAppLauncher } from "@/components/whatsapp/WhatsAppLauncher";
 import { siteUrl } from "@/lib/site-config";
 import type { Metadata } from "next";
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col antialiased">
         <OrganizationJsonLd />
+        <WebSiteJsonLd />
         <Analytics />
         <SiteHeader />
         <main className="flex-1 pb-16 md:pb-0">{children}</main>

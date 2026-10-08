@@ -223,11 +223,13 @@ export const industries = [
   },
 ] as const;
 
+import caseStudiesJson from "../../content/case-studies.json";
 import insightsJson from "../../content/insights.json";
 import peopleJson from "../../content/people.json";
 
 export const insights = insightsJson;
 export const people = peopleJson;
+export const caseStudies = caseStudiesJson;
 
 export const whatsappTopics = [
   { id: "adviser", label: "Speak to an Adviser" },

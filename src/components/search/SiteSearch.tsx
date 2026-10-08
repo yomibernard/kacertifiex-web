@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import {
+  caseStudies,
   challenges,
   industries,
   insights,
@@ -40,8 +41,19 @@ export function SiteSearch({ open, onClose }: SiteSearchProps) {
       }
     });
     insights.forEach((ins) => {
-      if (ins.title.toLowerCase().includes(q)) {
+      const haystack = `${ins.title} ${ins.excerpt ?? ""} ${ins.category}`.toLowerCase();
+      if (haystack.includes(q)) {
         items.push({ title: ins.title, href: `/insights/${ins.slug}`, type: "Insight" });
+      }
+    });
+    caseStudies.forEach((study) => {
+      const haystack = `${study.title} ${study.summary ?? ""} ${study.industry}`.toLowerCase();
+      if (haystack.includes(q)) {
+        items.push({
+          title: study.title,
+          href: `/case-studies/${study.slug}`,
+          type: "Case study",
+        });
       }
     });
     challenges.forEach((c) => {
@@ -64,7 +76,7 @@ export function SiteSearch({ open, onClose }: SiteSearchProps) {
       onClick={onClose}
     >
       <div
-        className="w-full max-w-xl rounded-lg bg-white shadow-xl"
+        className="w-full max-w-xl overflow-hidden rounded-sm bg-white shadow-xl ring-1 ring-black/5"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="border-b border-grey-light p-4">

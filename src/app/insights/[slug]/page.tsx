@@ -3,7 +3,10 @@ import { InsightKeyTakeaways } from "@/components/insights/InsightKeyTakeaways";
 import { RelatedInsights } from "@/components/insights/RelatedInsights";
 import { CtaBand } from "@/components/layout/CtaBand";
 import { PageHero } from "@/components/layout/PageHero";
+import { ArticleJsonLd } from "@/components/seo/ArticleJsonLd";
+import { BreadcrumbJsonLd } from "@/components/seo/BreadcrumbJsonLd";
 import { getInsight, getInsights } from "@/lib/cms";
+import { siteUrl } from "@/lib/site-config";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -19,9 +22,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const insight = await getInsight(slug);
   if (!insight) return { title: "Insight" };
+  const url = `${siteUrl()}/insights/${insight.slug}`;
+  const image = insight.image.startsWith("http")
+    ? insight.image
+    : `${siteUrl()}${insight.image}`;
   return {
     title: insight.title,
     description: insight.excerpt,
+    openGraph: {
+      title: insight.title,
+      description: insight.excerpt,
+      url,
+      type: "article",
+      images: [{ url: image }],
+    },
   };
 }
 
@@ -49,6 +63,14 @@ export default async function InsightArticlePage({ params }: Props) {
 
   return (
     <>
+      <ArticleJsonLd insight={insight} />
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", path: "/" },
+          { name: "Insights", path: "/insights" },
+          { name: insight.title, path: `/insights/${insight.slug}` },
+        ]}
+      />
       <PageHero
         eyebrow="Insight"
         title={insight.title}

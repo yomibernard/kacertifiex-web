@@ -37,6 +37,10 @@ Edit JSON in **`content/`** — people, insights, case studies. See [docs/CMS.md
 
 **Careers:** an empty `content/careers.json` shows “no open roles”; add job objects when hiring.
 
+## Launch (production)
+
+See **[docs/LAUNCH.md](docs/LAUNCH.md)** for Vercel env vars, custom domain, deployment protection, and smoke tests.
+
 ## Deploy
 
 See [docs/DEPLOY.md](docs/DEPLOY.md). Set environment variables from `.env.example`.

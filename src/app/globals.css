@@ -142,3 +142,31 @@ h3 {
     animation: none;
   }
 }
+
+@keyframes landing-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.landing-scroll-track {
+  width: max-content;
+  animation: landing-scroll 55s linear infinite;
+}
+
+.landing-scroll-marquee:hover .landing-scroll-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .landing-scroll-marquee {
+    overflow-x: auto;
+  }
+  .landing-scroll-track {
+    animation: none;
+    width: auto;
+  }
+}
